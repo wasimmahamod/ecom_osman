@@ -1,0 +1,354 @@
+/* =======================check part start==================== */
+.check-part {
+    margin: 80px 0;
+}
+
+.check-part .breadcrumb ul {
+    padding-left: none !important;
+    display: flex;
+    gap: 10px;
+}
+
+.check-part .breadcrumb ul .brdcmb-list{
+    color: var(--red-color);
+}
+
+.check-part .breadcrumb ul .brdcmb-list a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.check-part .brdcmb-list::after {
+    padding: 8px;
+    color: var(--black-color);
+    content:">";
+}
+
+.check-part .brdcmb-list:last-child:after {
+    padding: 8px;
+    color: var(--black-color);
+    content:"";
+}
+
+.check-head {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.check-head h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.check-checkout {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carts {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.carts::after{
+    content: '';
+    width: 240px;
+    height: 2px;
+    background: var(--black-color);
+    position: absolute;
+    top: 50%;
+    left: 198px;
+    transform: translateY(-50%);
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    color: var(--red-color);
+    font-weight: 500;
+    border: 1px solid var(--red-color);
+    border-radius: 50%;
+}
+
+.carts p {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--red-color);
+}
+
+.checkout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    color: var(--red-color);
+    font-weight: 500;
+    border: 1px solid var(--red-color);
+    border-radius: 50%;
+}
+
+.checkout p {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--red-color);
+}
+
+.checkout-all-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.check-left {
+    width: 68%;
+}
+
+.check-right {
+    width: 38%;
+}
+/* =======================check part end ===================== */
+
+/* =======================check left start ===================== */
+.checkleft-box {
+    width: 100%;
+}
+
+.checkleft-box .info{
+    border: 1px solid var(--black-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 12px 0;
+    width: 100%;
+}
+
+.checkleft-box .info p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--icon-color);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-col {
+    width: 48%;
+}
+
+.form-col label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: var(--black-color);
+    font-weight: 400;
+}
+
+.form-col input {
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px 12px;
+    border: 1px solid var(--icon-color);
+}
+
+.note {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.note label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: var(--black-color);
+    font-weight: 400;
+}
+
+.note textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px 12px;
+    border: 1px solid var(--icon-color);
+}
+
+.cmnt-errors {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--red-color);
+}
+/* =======================check left end ===================== */
+
+/* =======================check right start ===================== */
+.checkout-right-part {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.right-box {
+    padding: 20px;
+    border: 1px solid var(--icon-color);
+    border-radius: 12px;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid var(--icon-color);
+    padding-bottom: 10px;
+}
+
+.heading h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.pro-rates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    text-align: start;
+}
+
+.pro-rates p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.pro-type {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.all-amount {
+    border-top: 1px solid var(--icon-color);
+    border-bottom: 1px solid var(--icon-color);
+    padding: 0 0 20px 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.total-amount {
+    border-bottom: 1px solid var(--icon-color);
+    padding: 0 0 20px 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.total-amount h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.total-amount .total-price {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--red-color);
+}
+
+.payment {
+    margin-top: 20px;
+}
+
+.payment h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--black-color);
+    margin-bottom: 30px;
+}
+
+.payment-mathod {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay-card {
+    width: 32%;
+    padding: 12px 0;
+    background: var(--white-color);
+    color: var(--black-color);
+    border: 1px solid var(--border-color);
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.active {
+    background: var(--black-color);
+    color: var(--white-color);
+    width: 32%;
+    padding: 12px 0;
+    border: 1px solid var(--border-color);
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.check-btns {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.check-btns button {
+    padding: 18px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--white-color);
+    background-color: var(--red-color);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.cart-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-btns a {
+    text-decoration: none;
+}
+
+.cart-btns p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    background: transparent;
+    color: var(--black-color);
+    border-radius: 12px;
+}
+/* =======================check right end ===================== */

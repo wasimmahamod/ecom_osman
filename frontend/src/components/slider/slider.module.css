@@ -1,0 +1,39 @@
+.slider {
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider .slide_viewer img {
+  width: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+  transition: transform 0.5s ease; /* Smooth movement of dots */
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 
+    width 0.3s ease,
+    border-radius 0.3s ease,
+    background-color 0.3s ease,
+    transform 0.3s ease;
+  cursor: pointer;
+}
+
+.active {
+  width: 32px;
+  border-radius: 8px;
+  background-color: #F56052;
+  transform: scale(1.1); /* Slightly enlarges the active dot */
+}

@@ -1,0 +1,114 @@
+.topNavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0 18px 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.socimedia{
+    display: flex;
+    column-gap: 32px;
+}
+
+.socimedia .instagram svg, 
+.socimedia .facebook svg,
+.socimedia .twitter svg,
+.socimedia .linkedin svg
+ {
+    width: 24px;
+    height: 24px;
+    fill: #A6A6A6;
+}
+
+.socimedia .instagram svg:hover{
+    fill:#E4405F
+}
+
+.socimedia .facebook svg:hover{
+    fill:#1877F2
+}
+
+.socimedia .twitter svg:hover{
+    fill:#000
+}
+
+.socimedia .linkedin svg:hover{
+    fill:	#0077B5
+}
+
+.contact{
+    display: flex;
+    column-gap: 32px;
+}
+
+.contact .icon svg{
+    width: 24px;
+    height: 24px;
+    fill: #D96767;
+}
+
+.icon{
+    display: flex;
+    column-gap: 18px;
+}
+
+.contact .icon span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+.bottom_navbar{
+    margin-top: 36px;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_menu{
+    display: flex;
+    column-gap: 48px;
+}
+
+.navbar_menu a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.shopping_alert{
+    display: flex;
+    column-gap: 32px;
+}
+
+.shopping_alert .bag{
+    position: relative;
+}
+
+.shopping_alert .bag .alert{
+   position: absolute;
+   top: -30px;
+}
+
+.shopping_alert .bag .alert span{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: #F56052;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+}
+
+.shopping_alert svg{
+    width: 24px;
+    height: 24px;
+    fill: #000;
+}
+

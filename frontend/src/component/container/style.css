@@ -1,0 +1,5 @@
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    --bs-gutter-x: 0 !important;
+}

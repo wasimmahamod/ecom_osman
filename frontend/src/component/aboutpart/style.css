@@ -1,0 +1,168 @@
+/* ==============about-head-name part start================= */
+.head{
+    color: var(--black-color);
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+/* ==============about-head-name part start================= */
+
+/* ==============tronix-about part start================= */
+.tronixabout-part {
+    margin-top: 60px;
+}
+
+.tronix-head {
+    width: 100%;
+    text-align: center;
+}
+
+.tronix-head p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 32px 100px;
+    color: var(--black-color);
+}
+
+.tronixabout-part .breadcrumb ul {
+    padding-left: none !important;
+    display: flex;
+    gap: 10px;
+}
+
+.tronixabout-part .breadcrumb ul li{
+    color: var(--red-color);
+}
+
+.tronixabout-part .breadcrumb ul li a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.tronixabout-part li:after {
+    padding: 8px;
+    color: var(--black-color);
+    content:">";
+  }
+
+  .tronixabout-part li:last-child:after {
+    padding: 8px;
+    color: black;
+    content:"";
+  }
+/* ==============tronix-about part end================= */
+
+/* ==============adsimg part start================= */
+.adsimg-part {
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+.img {
+    width: 100%;
+    height: 350px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+/* ==============adsimg part end================= */
+/* ==============choose part start================= */
+.choose-part {
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.choose-all-item {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.choose-item {
+    width: 33%;
+    text-align: center;
+}
+
+.choose-item h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--black-color);
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+.choose-item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+/* ==============choose part end================= */
+
+/* ==============team part start================= */
+.team-part {
+    margin-bottom: 160px;
+    width: 100%;
+}
+
+.team-text p {
+    margin: 32px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 600px;
+    color: var(--black-color);
+}
+
+.team-all-item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.team-item {
+    width: 280px;
+    border-radius: 25px;
+    overflow: hidden;
+    padding-bottom: 32px;
+    -webkit-box-shadow: 10px 10px 15px -6px rgba(0,0,0,0.55);
+-moz-box-shadow: 10px 10px 15px -6px rgba(0,0,0,0.55);
+box-shadow: 10px 10px 15px -6px rgba(0,0,0,0.55);
+}
+
+.team-item .imgs{
+    width: 376px;
+    height: 275px;
+    object-fit: cover;
+    overflow: hidden;
+    transform: scale(1);
+
+}
+
+.team-item .imgs .team-img {
+    transition: .4s;
+}
+
+.team-item .imgs .team-img:hover {
+    transform: scale(1.1);
+}
+
+.team-item h3{
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.team-item p{
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* ==============team part end================= */
+

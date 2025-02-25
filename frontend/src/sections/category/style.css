@@ -1,0 +1,35 @@
+.category_item{
+ margin-top: 80px;
+}
+
+.category_item h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
+}
+
+.category{
+    padding-top: 52px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.category .item svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.category .item span{
+    padding-top: 16px;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.hero_part{
+    display: flex;
+    column-gap: 31px;
+}
+
+.hero_slider{
+    width: 100%;
+}
+
+.collection_part{
+    display: flex;
+    flex-direction: column;
+    row-gap: 31px;
+    cursor: pointer;
+}

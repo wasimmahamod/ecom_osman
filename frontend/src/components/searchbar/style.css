@@ -1,0 +1,33 @@
+.searchbar{
+    width: 544px;
+    display: flex;
+}
+
+.searchbar input {
+    width: 90%;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    border:none;
+    border-radius: 8px 0 0 8px;
+    background-color: #EFEFF0;
+}
+
+.searchbar input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.searchbar .search_icon{
+    width: 10%;
+    background-color: #F56052;
+    padding: 12px;
+    border-radius: 0 8px 8px 0;
+}
+
+.searchbar .search_icon svg{
+    width: 24px;
+    height: 24px;
+    fill: white
+}

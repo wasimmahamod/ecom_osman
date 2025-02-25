@@ -1,0 +1,428 @@
+/* ========================product details part start====================== */
+.product-all-details{
+    margin: 80px 0;
+}
+
+.product-elements {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.prdct-items{
+    width: 50%;
+}
+
+.prdct-details {
+    width: 50%;
+}
+
+.sec-slide {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+/* ========================product details part end====================== */
+
+/* ========================product breadcrumb part start====================== */
+.prdct-dtls-right .breadcrumb ul {
+    padding-left: none !important;
+    display: flex;
+    gap: 10px;
+}
+
+.prdct-dtls-right .breadcrumb ul li{
+    color: var(--red-color);
+}
+
+.prdct-dtls-right .breadcrumb ul li a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.prdct-dtls-right li:after {
+    padding: 8px;
+    color: var(--black-color);
+    content:">";
+}
+
+.prdct-dtls-right li:last-child:after {
+    padding: 8px;
+    color: black;
+    content:"";
+}
+
+.ratings {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate-star {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rate-star p{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.rate-star span{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--icon-color);
+}
+
+.star-wish {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.star-wish span{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.product-heading{
+    margin-top: 10px;
+}
+
+.product-heading h3{
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.rate-percent {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.rate-percent p{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.rate-percent span{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--icon-color);
+    text-decoration: line-through;
+}
+
+.rate-percent button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid var(--red-color);
+    background: transparent;
+    color: var(--red-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.delivery-voucher-stock {
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.delivery span {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.product-description {
+    width: 100%;
+    margin-top: 32px;
+    border-top: 2px solid var(--border-color);
+}
+
+.product-description h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black-color);
+    margin-bottom: 15px;
+    margin-top: 32px;
+}
+
+.product-description p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--icon-color);
+}
+
+.qnty-chrt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.quantity h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--icon-color);
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.count .minus {
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid var(--red-color);
+    background: var(--red-color);
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.count p{
+    width: 30px;
+    height: 30px;
+    color: var(--black-color);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.count .plas {
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: var(--black-color);
+    background: var(--border-color);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.chrt .chart {
+    padding: 8px 12px;
+    border: 1px solid var(--red-color);
+    border-radius: 5px;
+    color: var(--red-color);
+    font-size: 18px;
+    font-weight: 400;
+    background: transparent;
+    margin-right: 15px;
+}
+
+.chrt .cart {
+    padding: 8px 12px;
+    border: 1px solid var(--red-color);
+    border-radius: 5px;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 400;
+    background: var(--red-color);
+    margin-right: 15px;
+}
+
+/* ========================product breadcrumb part end====================== */
+
+/* ========================review part start====================== */
+.prdct-btm-part {
+    margin: 160px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.review-part {
+    width: 50%;
+}
+
+.review-tag {
+    display: flex;
+    gap: 20px;
+}
+
+.review-tag p{
+    font-size: 18px;
+    font-weight: 400px;
+    color: var(--black-color);
+    width: 120px;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.review-tag p:hover {
+    border-bottom: 2px solid var(--red-color);
+    color: var(--red-color);
+}
+
+.comment-list {
+    border-right: 2px solid var(--border-color);
+    padding-right: 50px;
+}
+
+.tag-comment {
+    margin-top: 64px;
+}
+
+.cmnt-img-rate {
+    display: flex;
+    gap: 20px;
+}
+
+.img {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.rating h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.rating p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color); 
+    margin-right: 5px;
+}
+
+.rating .rate-timing {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--icon-color); 
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+
+.cmnt {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black-color); 
+}
+/* ========================review part end====================== */
+
+/* ========================review-form part start====================== */
+.review-form-part {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.form-text {
+    width: 80%;
+}
+
+.form-text h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.form-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--icon-color);
+    margin-top: 15px;
+}
+
+.form-part {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.form-part label{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color);
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+.form-part input {
+    width: 100%;
+    padding: 12px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 20px;
+}
+
+.form-part textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 15px;
+    border: 2px solid var(--border-color);
+    margin-bottom: 15px;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+
+.cmnt-errors{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--red-color);
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.form-rating {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.form-rating p {
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form-part button {
+    padding: 12px 32px;
+    background: var(--red-color);
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+/* ========================review-form part end====================== */
