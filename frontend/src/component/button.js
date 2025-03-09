@@ -1,9 +1,10 @@
 "use client"
-import React from 'react'
 
 const Button = ({item}) => {
 
     let handleClick = (id) => {
+
+
         
                 // POST request using fetch()
             fetch(`http://localhost:8000/api/v1/product/cart`, {
@@ -15,7 +16,7 @@ const Button = ({item}) => {
             body: JSON.stringify({
                 productId: id,
                 userId: "673b9a729b7650570f6feab7",
-            quantity: quantity ? quantity : 1
+            quantity:  1
             }),
             
             // Adding headers to the request

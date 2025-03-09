@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { Radio, Select, Space } from 'antd';
+import { Select } from 'antd';
 import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 
 
 const FlashSale = () => {
@@ -70,9 +70,10 @@ const FlashSale = () => {
 
     let handleSubmit = async () => {
 
+    
         axios.post('http://localhost:8000/api/v1/product/flashsale', {
             ftime: date + " " + time,
-            idlist: idlist
+            productid: idlist
         }).then((data) => {
             console.log(data)
         }).catch((err) => {

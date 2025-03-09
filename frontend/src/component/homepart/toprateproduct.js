@@ -1,27 +1,17 @@
 "use client"
-import React, { useEffect, useState } from 'react'
-import Headviewall from '../headviewall/headviewall'
-import HeadName from '../headname/headname'
-import { toprateproduct } from './categoryData'
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import HeadName from '../headname/headname'
+import Headviewall from '../headviewall/headviewall'
 // import Image from 'next/image'
-import Button from '../button'
 import axios from 'axios'
+import Button from '../button'
 
 
 function Toprateproduct() {
     let [allproduct, setAllProduct] = useState([])
 
-    // async function getData() {
 
-    //     let data = await fetch('http://localhost:8000/api/v1/product/allpro')
-    //         .then((res) =>
-    //             res.json()
-    //         )
-
-    //     return data;
-
-    // }
 
     useEffect(() => {
         function getAllProduct() {

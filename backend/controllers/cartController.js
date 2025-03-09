@@ -4,8 +4,11 @@ let cartController = async (req, res) => {
 
     const {productId, userId, quantity} = req.body
 
+
+
     let existingCart = await Cart.findOne({productId:productId, userId:userId})
 
+  
     if(existingCart) {
 
         if (req.query.type) {
@@ -27,12 +30,12 @@ let cartController = async (req, res) => {
         }
       
     }else {
-        let Cart = new Cart({
+        let cartdata = new Cart({
             productId:productId,
             userId:userId,
             quantity: quantity ? quantity : 1
         })
-        Cart.save()
+        cartdata.save()
         res.send({success : "Cart Added Successfully"})
     }
 
